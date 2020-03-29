@@ -1,10 +1,10 @@
 # DeAda
 ## Introduction
 
-DeAda is a new training method for person re-identification (Re-ID) networks. It is published recently on Neurocomputing - [Decouple Co-adaptation: Classifier Randomization for Person Re-identification](https://ieeexplore.ieee.org/document/9024230).
-Given an existing Re-ID network, an auxiliary branch is added into the network only in the training stage, while the structure of the original network stays unchanged during the testing stage. 
+DeAda is a new training method for person re-identification (Re-ID) networks. It is published recently on Neurocomputing - [Decouple Co-adaptation: Classifier Randomization for Person Re-identification](https://www.sciencedirect.com/science/article/abs/pii/S0925231219316972).
+DeAda could decouple co-adaptation in Re-ID networks, so that performance of networks could be improved. DeAda does not increase computational cost during training and testing.
 
-This project is the implementation of SIF on some commonly used baseline networks. Our code is adapted from the open-reid library (https://github.com/Cysu/open-reid).
+This project is the implementation of DeAda on some commonly used baseline networks. Our code is adapted from the open-reid library (https://github.com/Cysu/open-reid).
 
 ## Datasets
 * [Market-1501](http://www.liangzheng.com.cn/Project/project_reid.html)
@@ -55,7 +55,7 @@ The data structure should look like:
 + [DenseNet](https://arxiv.org/abs/1608.06993). We choose two configurations: DenseNet121 and DenseNet161.
 
 ### Train and Evaluate
-We provie two training methods: plain (traditional SGD optimization) and sif (our proposed SIF optimization). The training method could be specified by the argument training_method in run.sh
+We provie two training methods: plain (traditional SGD optimization) and deada (our proposed DeAda optimization). The training method could be specified by the argument training_method in run.sh
 
 * Train and Evaluate by running
   ```
@@ -177,6 +177,5 @@ Evaluation metric: mAP (%) and CMC-1 (%).
 
 ## Reference
 
-Please cite our paper when you use SIF in your research:
-
-Long Wei, Zhenyong Wei, Zhongming Jin, Zhengxu Yu, Jianqiang Huang, Deng Cai, Xiaofei He, and Xian-Sheng Hua. "SIF: Self-Inspirited Feature Learning for Person Re-Identification." IEEE Transactions on Image Processing 29 (2020): 4942-4951.
+Please cite our paper when you use DeAda in your research:
+Wei, Long, Zhenyong Wei, Zhongming Jin, Qianxiao Wei, Jianqiang Huang, Xian-Sheng Hua, Deng Cai, and Xiaofei He. "Decouple co-adaptation: Classifier randomization for person re-identification." Neurocomputing 383 (2020): 1-9.
