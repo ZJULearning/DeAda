@@ -178,4 +178,5 @@ Evaluation metric: mAP (%) and CMC-1 (%).
 ## Reference
 
 Please cite our paper when you use DeAda in your research:
-Wei, Long, Zhenyong Wei, Zhongming Jin, Qianxiao Wei, Jianqiang Huang, Xian-Sheng Hua, Deng Cai, and Xiaofei He. "Decouple co-adaptation: Classifier randomization for person re-identification." Neurocomputing 383 (2020): 1-9.
+
+Long Wei, Zhenyong Wei, Zhongming Jin, Qianxiao Wei, Jianqiang Huang, Xian-Sheng Hua, Deng Cai, and Xiaofei He. "Decouple co-adaptation: Classifier randomization for person re-identification." Neurocomputing 383 (2020): 1-9.
