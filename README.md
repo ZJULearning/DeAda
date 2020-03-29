@@ -83,75 +83,75 @@ Evaluation metric: mAP (%) and CMC-1 (%).
   </tr>
   <tr>
     <td>ResNet50 + SGD</td>
-    <td>68.8</td>
-    <td>86.5</td>
-    <td>41.3</td>
-    <td>43.2</td>
-    <td>60.0</td>
-    <td>78.8</td>
+    <td>70.9</td>
+    <td>86.8</td>
+    <td>41.5</td>
+    <td>41.4</td>
+    <td>62.6</td>
+    <td>79.6</td>
   </tr>
   <tr>
     <td>ResNet50 + DeAda</td>
-    <td>71.8</td>
-    <td>87.9</td>
-    <td>46.9</td>
-    <td>48.2</td>
-    <td>61.6</td>
-    <td>79.3</td>
+    <td>72.3</td>
+    <td>87.7</td>
+    <td>43.4</td>
+    <td>44.4</td>
+    <td>63.5</td>
+    <td>80.5</td>
   </tr>
   <tr>
     <td>DenseNet121 + SGD</td>
-    <td>71.6</td>
-    <td>88.3</td>
+    <td>73.2</td>
+    <td>89.1</td>
+    <td>40.5</td>
     <td>41.1</td>
-    <td>43.7</td>
-    <td>62.0</td>
-    <td>80.3</td>
+    <td>64.7</td>
+    <td>81.0</td>
   </tr>
   <tr>
     <td>DenseNet121 + DeAda</td>
-    <td>74.8</td>
-    <td>90.3</td>
-    <td>48.5</td>
-    <td>50.6</td>
-    <td>65.3</td>
-    <td>89.5</td>
-  </tr>
-  <tr>
-    <td>ResNet152 + SGD</td>
-    <td>73.0</td>
-    <td>88.1</td>
-    <td>45.5</td>
-    <td>47.3</td>
-    <td>63.4</td>
-    <td>80.9</td>
-  </tr>
-  <tr>
-    <td>ResNet152 + DeAda</td>
-    <td>75.8</td>
-    <td>89.6</td>
-    <td>52.3</td>
-    <td>54.0</td>
-    <td>66.0</td>
-    <td>82.6</td>
-  </tr>
-  <tr>
-    <td>DenseNet161 + SGD</td>
-    <td>74.3</td>
-    <td>89.5</td>
-    <td>49.8</td>
-    <td>51.9</td>
-    <td>64.2</td>
+    <td>76.9</td>
+    <td>90.5</td>
+    <td>41.8</td>
+    <td>41.9</td>
+    <td>66.9</td>
     <td>82.0</td>
   </tr>
   <tr>
+    <td>ResNet152 + SGD</td>
+    <td>74.8</td>
+    <td>89.2</td>
+    <td>47.1</td>
+    <td>47.1</td>
+    <td>65.9</td>
+    <td>80.7</td>
+  </tr>
+  <tr>
+    <td>ResNet152 + DeAda</td>
+    <td>76.0</td>
+    <td>89.4</td>
+    <td>49.4</td>
+    <td>51.7</td>
+    <td>66.2</td>
+    <td>81.6</td>
+  </tr>
+  <tr>
+    <td>DenseNet161 + SGD</td>
+    <td>75.6</td>
+    <td>90.0</td>
+    <td>45.5</td>
+    <td>45.7</td>
+    <td>66.7</td>
+    <td>81.9</td>
+  </tr>
+  <tr>
     <td>DenseNet161 + DeAda</td>
-    <td>78.0</td>
-    <td>91.8</td>
-    <td>55.1</td>
-    <td>58.6</td>
-    <td>68.0</td>
-    <td>84.6</td>
+    <td>78.6</td>
+    <td>92.1</td>
+    <td>46.4</td>
+    <td>46.1</td>
+    <td>68.7</td>
+    <td>84.1</td>
   </tr>
 </table>
 
