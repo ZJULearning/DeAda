@@ -260,7 +260,6 @@ if __name__ == '__main__':
     print('torch.version:{}'.format(torch.__version__))
     print('torchvision.version:{}'.format(torchvision.__version__))
     parser = argparse.ArgumentParser(description="Softmax loss classification")
-    parser.add_argument('--project_name', type=str, default='densnet')
     # data
     parser.add_argument('-d', '--dataset', type=str, default='market1501')
     parser.add_argument('-b', '--batch-size', type=int, default=48)
@@ -307,5 +306,5 @@ if __name__ == '__main__':
     parser.add_argument('--root_dir', type=str, metavar='PATH',
                         default='./')
     parser.add_argument('--data_dir', type=str, metavar='PATH',
-                        default='/home/zhenyong.wzy/data/data_reid/')
+                        default='/home/data/')
     main(parser.parse_args(),)
