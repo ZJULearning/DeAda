@@ -63,7 +63,7 @@ We provie two training methods: plain (traditional SGD optimization) and deada (
   ```
 
 ### Results
-Evaluation metric: mAP (%) and CMC-1 (%). 
+Evaluation metric: mAP (%) and CMC Rank-1 (%). 
 
 <table>
   <tr>
@@ -75,11 +75,11 @@ Evaluation metric: mAP (%) and CMC-1 (%).
   <tr>
     <td></td>
     <td>mAP</td>
-    <td>CMC-1</td>
+    <td>Rank-1</td>
     <td>mAP</td>
-    <td>CMC-1</td>
+    <td>Rank-1</td>
     <td>mAP</td>
-    <td>CMC-1</td>
+    <td>Rank-1</td>
   </tr>
   <tr>
     <td>ResNet50 + SGD</td>
