@@ -69,14 +69,11 @@ Evaluation metric: mAP (%) and CMC-1 (%).
   <tr>
     <th>Models + Training_method</th> 
     <th colspan="2">Market-1501</th>
-    <th colspan="2">CUHK03(Labelled)</th>
-    <th colspan="2">CUHK03(Detected)</th>
+    <th colspan="2">CUHK03</th>
     <th colspan="2">DukeMTMC-reID</th>
   </tr>
   <tr>
     <td></td>
-    <td>mAP</td>
-    <td>CMC-1</td>
     <td>mAP</td>
     <td>CMC-1</td>
     <td>mAP</td>
@@ -90,19 +87,15 @@ Evaluation metric: mAP (%) and CMC-1 (%).
     <td>86.5</td>
     <td>41.3</td>
     <td>43.2</td>
-    <td>38.8</td>
-    <td>40.3</td>
     <td>60.0</td>
     <td>78.8</td>
   </tr>
   <tr>
-    <td>ResNet50 + SIF</td>
+    <td>ResNet50 + DeAda</td>
     <td>71.8</td>
     <td>87.9</td>
     <td>46.9</td>
     <td>48.2</td>
-    <td>45.3</td>
-    <td>47.1</td>
     <td>61.6</td>
     <td>79.3</td>
   </tr>
@@ -112,19 +105,15 @@ Evaluation metric: mAP (%) and CMC-1 (%).
     <td>88.3</td>
     <td>41.1</td>
     <td>43.7</td>
-    <td>38.1</td>
-    <td>39.7</td>
     <td>62.0</td>
     <td>80.3</td>
   </tr>
   <tr>
-    <td>DenseNet121 + SIF</td>
+    <td>DenseNet121 + DeAda</td>
     <td>74.8</td>
     <td>90.3</td>
     <td>48.5</td>
     <td>50.6</td>
-    <td>44.8</td>
-    <td>46.6</td>
     <td>65.3</td>
     <td>89.5</td>
   </tr>
@@ -134,19 +123,15 @@ Evaluation metric: mAP (%) and CMC-1 (%).
     <td>88.1</td>
     <td>45.5</td>
     <td>47.3</td>
-    <td>44.7</td>
-    <td>48.2</td>
     <td>63.4</td>
     <td>80.9</td>
   </tr>
   <tr>
-    <td>ResNet152 + SIF</td>
+    <td>ResNet152 + DeAda</td>
     <td>75.8</td>
     <td>89.6</td>
     <td>52.3</td>
     <td>54.0</td>
-    <td>49.5</td>
-    <td>52.9</td>
     <td>66.0</td>
     <td>82.6</td>
   </tr>
@@ -156,19 +141,15 @@ Evaluation metric: mAP (%) and CMC-1 (%).
     <td>89.5</td>
     <td>49.8</td>
     <td>51.9</td>
-    <td>48.3</td>
-    <td>51.6</td>
     <td>64.2</td>
     <td>82.0</td>
   </tr>
   <tr>
-    <td>DenseNet161 + SIF</td>
+    <td>DenseNet161 + DeAda</td>
     <td>78.0</td>
     <td>91.8</td>
     <td>55.1</td>
     <td>58.6</td>
-    <td>51.8</td>
-    <td>54.4</td>
     <td>68.0</td>
     <td>84.6</td>
   </tr>
