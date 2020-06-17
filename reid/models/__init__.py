@@ -1,20 +1,13 @@
 from __future__ import absolute_import
 from .resnet import *
-from .resnet_sif import *
 from .densenet import *
-from .densenet_sif import *
 
 __factory = {
     'resnet50': resnet50,
     'resnet101': resnet101,
     'resnet152': resnet152,
-    'resnet50_sif': resnet50_sif,
-    'resnet101_sif': resnet101_sif,
-    'resnet152_sif': resnet152_sif,
     'densenet121': densenet121,
-    'densenet161': densenet161,
-    'densenet121_sif': densenet121_sif,
-    'densenet161_sif': densenet161_sif,
+    'densenet161': densenet161
 }
 
 
