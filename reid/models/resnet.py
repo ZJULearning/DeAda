@@ -70,8 +70,9 @@ class ResNet(nn.Module):
         x = F.relu(x)
         x = F.avg_pool2d(x, x.size()[2:])
         x = x.view(x.size(0), -1)
-        feature = self.embed(x)
-        x = self.bn(feature)
+        x = self.embed(x)
+        x = self.bn(x)
+        feature = F.normalize(x)
         x = F.relu(x)
         y = self.classifier(x)
 
